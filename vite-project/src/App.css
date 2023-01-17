@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.App {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.App > h1 {
+  border-bottom: 1px solid black;
+}
+.App > div > input {
+  padding: 10px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+.card > button {
+  margin: 10px;
+}
+.card > input {
+  min-width: 25px;
+  min-height: 25px;
+  flex-grow: 1;
+}
+.card > div {
+  padding: 15px;
+  font-size: 18px;
+  flex-grow: 3
+}
